@@ -1,0 +1,9 @@
+image: node0.11
+env:
+  - NODE_ENV=test
+scripts:
+  setup:
+    - npm install
+  benchmark:
+    - node benchmark.js
+
