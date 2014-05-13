@@ -1,4 +1,4 @@
-image: node0.10
+image: node:0.10
 env:
   - NODE_ENV=test
 scripts:
